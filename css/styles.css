@@ -1,0 +1,72 @@
+body{
+  background-image: url(../PizzaPcs/pizza_background.jpg);
+  background-size: cover;
+  color: yellow;
+  padding: 5%;
+  background-attachment: fixed;
+}
+h1{
+  text-decoration: underline;
+  text-align: center;
+  border : rounded;
+  padding 10px;
+  background-image: url(PizzaPcs/pizzacoverphoto.jpg);
+}
+.welcome{
+  font-style: italic;
+  text-align: center;
+}
+.menu ul{
+  text-shadow: 5px;
+  text-align: center;
+
+  /* display: inline-flex; */
+}
+.menu ul li{
+  font-family: calibri;
+  font-weight: bold;
+  color: white;
+  display: inline-flex;
+  padding-left: 10%;
+}
+.container{
+  padding: ;
+  /* margin-left: auto; */
+  display: inline-flex;
+}
+.chicken{
+  background-image: url(../PizzaPcs/griiledchickedpizza2.jpg);
+  padding-top: 50%;
+  padding-right: 70%;
+  padding-bottom: 10%;
+  padding-left: 10%;
+}
+.meat{
+  background-image: url(../PizzaPcs/meetpizza.jpg);
+
+}
+.veggies{
+  background-image: url(../PizzaPcs/veggie-pizza.jpg);
+}
+.pepperoni{
+  background-image: url(../PizzaPcs/pepperonipizza.jpg);
+
+}
+#slots{
+  width: 540px;
+     height: 320px;
+     margin: 10px;
+     background-repeat: no-repeat;
+     background-size: cover;
+     padding: 40px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+}
+.order{
+  text-align: center;
+}
+button{
+  border-radius: 40%;
+  background-color: red;
+}
