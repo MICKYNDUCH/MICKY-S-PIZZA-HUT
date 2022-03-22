@@ -11,7 +11,7 @@ The customer has a choice to choose the flavor,size,crust and toppings.
 
 ## BUGS
 
-So far far there are no known bus on this project.
+The javascript it not working, still on implementation process.
 
 ## SET UP
 * Create a GitHub repository.
@@ -30,7 +30,8 @@ MICHAEL N NJENGA.
 
 ## CONTACT DETAILS
 
-EMAIL; mickynduch@gmail.com
+EMAIL; mickynduch@gmail.com 
+
 PHONE ; 0715745304
 
 ## OTHER INFORMATION
