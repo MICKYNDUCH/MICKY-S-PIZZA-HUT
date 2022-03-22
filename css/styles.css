@@ -90,4 +90,12 @@ button{
   display: inline-flex;
   color: white;
   font-size: 30px;
+  flex-direction: column;
+  margin: 10%;
+  padding: 2%;
+}
+.total{
+  margin: 5%;
+  padding: 2%;
+
 }
