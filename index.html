@@ -23,6 +23,7 @@
           </ul>
 
         </div>
+      <!-- </div> -->
         <div class="container" id="container">
           <div class="chicken" id="slots">
             <h3>GRILLED</h3>
@@ -64,7 +65,7 @@
              <div class="flavor">
                <label for="pizzafsize">PIZZA FLAVOURS</label><br>
                <select class="form control" name="flavor">
-                 <option value="selected disabled">Select Your Pizza Flavor</option>
+                 <option value="selected disabled">Select Pizza Flavor</option>
                  <option value="grilled chicken">GRILLED CHICKEN PIZZA</option>
                  <option value="corn pizza">CORN PIZZA</option>
                  <option value="veggies pizza">VEGGIES PIZZA</option>
@@ -76,7 +77,7 @@
             <div class="size">
               <label for="pizzafsize">PIZZA SIZES</label><br>
               <select class="form control" name="size">
-                <option value="selected disabled">Select Your Pizza Size</option>
+                <option value="selected disabled">Select Pizza Size</option>
                 <option value="small">Small @800/= Ksh</option>
                 <option value="medium">MEDIUM @1200/= Ksh</option>
                 <option value="large">LARGE @1500/= Ksh</option>
@@ -86,25 +87,26 @@
               <div class="crust">
                 <label for="pizzafsize">PIZZA CRUST</label><br>
                 <select class="form control" name="size">
-                  <option value="selected disabled">Select Your Pizza cruts</option>
-                  <option value="cheese">CHEESE CRUST</option>
-                  <option value="bread">BREAD CRUST</option>
-                  <option value="stuffed">STUFFED CRUST</option>
-                  <option value="crackers">CRACKERS CRUST</option>
+                  <option value="selected disabled">Select Pizza cruts</option>
+                  <option value="cheese">CHEESE CRUST @200/=</option>
+                  <option value="bread">BREAD CRUST @150/=</option>
+                  <option value="stuffed">STUFFED CRUST @150/=</option>
+                  <option value="crackers">CRACKERS CRUST@150/=</option>
                 </select>
              </div><br>
              <div class="toppings">
-               <p class="order">Select Your Preferred Toppings</p><br
+               <p class="order">Select Your Preferred Toppings</p>
+               <p><em>Each toppings @150/=</em></p>
                <input type="checkbox" name="toppings" value="">
-               <label for="toppings">BLACK OLIVES,CAPERS,</label><br>
+               <label for="meat">BLACK OLIVES,CAPERS,</label><br>
                <input type="checkbox" name="toppings" value="">
-               <label for="">POTTATO,SAUSAGE/BACON</label><br>
+               <label for="cheese">POTTATO,SAUSAGE/BACON</label><br>
                <input type="checkbox" name="" value="">
-               <label for="">BROCCOLI,BELL,PEPPERS</label><br>
+               <label for="crackers">BROCCOLI,BELL,PEPPERS</label><br>
                <input type="checkbox" name="" value="">
-               <label for="">MEAT,SPINACH,ONIONS,</label><br>
+               <label for="cheese">MEAT,SPINACH,ONIONS,</label><br>
                <input type="checkbox" name="" value="">
-               <label for="">ANCHOVIES,ZUUCHINI,PINEAPPLE</label>
+               <label for="bread">ANCHOVIES,ZUUCHINI,PINEAPPLE</label>
 
              </div><br>
                <input type="submit" value="Submit">
@@ -118,7 +120,27 @@
      </div>
 
     </div>
+    <div class="table">
+      <thead>
+        <tr>
+          <th>FLAVOR   ;</th><br>
+          <th>SIZE     ;</th><br>
+          <th>CRUST    ;</th><br>
+          <th>TOPPINGS ;</th><br>
+          <th>QUANTITY ;</th><br><br><br>
+          <th>TOTAL    ;</th><br>
+        </tr>
+      </thead>
 
+    </div>
+    <div class="total">
+      <p class="grand-total">Total Cost: Ksh: <span class="text-bold">0</span>
+
+    </div>
+    <div class="deliverybutton">
+      <button type="button" name="Checkout">Proceed to Checkout</button>
+
+    </div>
 
 
 
