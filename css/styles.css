@@ -86,6 +86,8 @@ button{
   border-radius: 40%;
   background-color:brown;
 }
-.form{
-  /* display: inline-flex; */
+.table{
+  display: inline-flex;
+  color: white;
+  font-size: 30px;
 }
