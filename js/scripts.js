@@ -5,7 +5,7 @@ var pizza = [
     { name: "MEAT PIZZA" },
     { name: "PEPPERONI PIZZA" },
 ]
-var pizzaPrices =[
+var pizzaPrices = [
 {
   size: "small",
   price: 800,
@@ -19,7 +19,7 @@ var pizzaPrices =[
   price: 1500,
 }
 ]
-var crust :[
+var crust = [
     {
         name: "cheese",
         price: 200,
@@ -40,7 +40,7 @@ var crust :[
 
 var toppings =["meat", "cheese", "crackers", "stuffed"]
 
-Pizza.prototype.setSize = function (size) {
+Pizza.setSize = function () {
     const pizzaSize = pizzaSizes.find((pizzaSize) => pizzaSize.size == size);
     if (pizzaSize) {
         this.size = pizzaSize;
