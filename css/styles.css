@@ -1,101 +1,429 @@
-body{
-  background-image: url(../PizzaPcs/BACKGROUND2.jpg);
-  background-size: cover;
-  color: white;
-  padding: 5%;
-  background-attachment: fixed;
-  background-image:
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url(../PizzaPcs/BACKGROUND2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
 }
-h1{
-  text-decoration: underline;
-  text-align: center;
-  /* border : rounded;
-  padding 10px; */
-  /* background-image: url(PizzaPcs/pizzacoverphoto.jpg); */
-  font-size: 500%;
-  font-style: italic;
-  /* color:r ; */
-}
-.welcome{
-  font-style: italic;
-  text-align: center;
-  /* color: red; */
-  font-size: 150%;
-}
-.menu ul{
-  text-shadow: 5px;
-  text-align: center;
-  font-size: 200%;
-  margin: 2%;
 
-  /* display: inline-flex; */
+*{
+    box-sizing: border-box;
 }
-.menu ul li{
-  font-family: calibri;
-  font-weight: bold;
-  color: white;
-  display: inline-flex;
-  padding-right:2%;
-}
-#img{
-  font-size: 50px;
-}
-.container{
-  padding: ;
-  /* margin-left: auto; */
-  display: inline-flex;
-}
-.chicken{
-  background-image: url(../PizzaPcs/griiledchickedpizza2.jpg);
-  padding-top: 50%;
-  padding-right: 70%;
-  padding-bottom: 10%;
-  padding-left: 10%;
-  color: white;
-}
-.meat{
-  background-image: url(../PizzaPcs/meetpizza.jpg);
-  color: white;
 
+ul {
+    list-style: none;
 }
-.veggies{
-  background-image: url(../PizzaPcs/veggie-pizza.jpg);
-  color: white;
-}
-.pepperoni{
-  background-image: url(../PizzaPcs/pepperonipizza.jpg);
-  color: white;
 
+a {
+    text-decoration: none;
 }
-#slots{
-  width: 540px;
-     height: 320px;
-     margin: 10px;
-     background-repeat: no-repeat;
-     background-size: cover;
-     padding: 40px;
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-}
-.order{
-  text-align: left;
-  font-size: 30px;
-}
-button{
-  border-radius: 40%;
-  background-color:brown;
-}
-.table{
-  display: inline-flex;
-  color: white;
-  font-size: 30px;
-  flex-direction: column;
-  margin: 10%;
-  padding: 2%;
-}
-.total{
-  margin: 5%;
-  padding: 2%;
 
+.navigation-container {
+    width: 100%;
+    height: 60px;
+    background-color: #ea272d;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+}
+
+.navigation-content {
+    height: 6opx;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 12%;
+}
+
+.cart img {
+    height: 30px;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu ul li a {
+    padding: 0px 30px;
+    font-family: calibri;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+    font-family: calibri;
+    font-weight: bold;
+}
+
+.cart a {
+    color: #FFFFFF;
+    margin: 0px 10px;
+}
+
+.whats-new {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+.new {
+    width: 540px;
+    height: 320px;
+    margin: 10px;
+    background-image: url(../PizzaPcs/pepperonipizza.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.new p {
+    color: #FFFFFF;
+    line-height: 50px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.new p:nth-child(1) {
+    font-size: 40px;
+    font-family: calibri;
+    font-weight: bold;
+}
+
+.new p:nth-child(2) {
+    font-size: 30px;
+    font-family: myriad pro;
+}
+
+.new button {
+    width:120px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: #ea272d;
+    text-align: center;
+    font-family: calibri;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-size: 16px;
+    border: none;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    outline: none;
+}
+
+.search, .order {
+    width: 540px;
+    height: 150px;
+    margin: 10px;
+    background-color: #b1b1b1;
+}
+
+.tools {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-row  {
+    display: flex;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.order {
+    background-image: url(../images/order.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.search {
+    background-image: url(../images/find.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.search p {
+    color: #FFFFFF;
+    font-size: 30px;
+    font-family: calibri;
+    font-weight: bold;
+    line-height: 0px;
+    text-shadow: 2px 2px 12px rgba(0,0,0,0.5);
+}
+
+.text {
+    background-color: #f1f1f1;
+    border-radius: 20px;
+    width: 350px;
+    height: 35px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+}
+
+.text-input[type=search] {
+    border: none;
+    background-color: transparent;
+    color: #000000;
+    text-align: center;
+    outline: none;
+}
+
+.text button {
+    height: 35px;
+    width: 70px;
+    border: none;
+    color: #0b0b0b0b;
+    font-family: calibri;
+    font-weight: bold;
+    outline: none;
+    border-radius: 0px 20px 20px 0px;
+    border-left: 1px solid #CDCACA;
+}
+
+.order {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.order a {
+    font-size: 40px;
+    font-family: calibri;
+    font-weight: bold;
+    text-shadow: 2px 2px 12px rgba(0,0,0,0.1);
+    color: #FFFFFF;
+}
+
+#order {
+    color: #f9a609;
+}
+
+.food-1, .food-2, .food-3 {
+    width: 354px;
+    height: 350px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px 5%;
+    text-shadow: 2px 2px 12px rgba (0,0,0,0.2);
+}
+
+.food-1 p, .food-2 p, .food-3 p {
+    margin: 0px;
+    padding: 0px;
+    font-size: 30px;
+    color:#FFFFFF;
+    font-family: sans-serif;
+    line-height: 35px;
+}
+
+.name p:nth-child(1) {
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 100px;
+}
+
+.name p:nth-child(2) {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.name p:nth-child(3) {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+
+.second-row {
+    display: flex;
+}
+
+.food-1 {
+    background-image: url(../PizzaPcs/griiledchickedpizza2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.food-2 {
+    background-image: url(../PizzaPcs/veggie-pizza.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.food-3 {
+    background-image: url(../PizzaPcs/meetpizza.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.details button {
+    color: #FFFFFF;
+    border: none;
+    background-color: #ea272d;
+    outline: none;
+    width: 90px;
+    height: 50px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    margin: 40px;
+    margin-left: 3px;
+    padding: 0px;
+}
+
+button:active {
+    transform: scale(1.2);
+    transition: all ease ease-in 0.5s;
+}
+
+
+form {
+    display: block;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: calibri;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+#h2 {
+    color: #f9a609;
+}
+.form-control {
+    display:block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: calibri;
+    line-height: 1.5;
+    color: #ea272d;
+    background-color: #FFFFFF;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+label {
+    font-size: 20px;
+    color: #f9a609;
+    padding: 0px;
+    line-height: 35px;
+}
+
+#toppings {
+    font-size: 20px;
+    color: #FFFFFF;
+    font-family: calibri;
+}
+
+.form-check {
+    display: block;
+}
+
+.form-check-input:checked {
+    background-color: #ea272d;
+    border-color: #ea272d;
+}
+
+.form-check-input[type=checkbox] {
+    border-radius: .25em;
+}
+
+.form-check-input {
+    width: 1em;
+    height: 1em;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border: 1px solid rgba(0,0,0,.25);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-print-color-adjust: exact;
+    color-adjust: exact;
+}
+
+.form-button {
+        color: #FFFFFF;
+        border: none;
+        background-color: #ea272d;
+        outline: none;
+        width: 150px;
+        height: 50px;
+        border-radius: 20px;
+        box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+        margin-left: 3px;
+        padding: 0px;
+        text-transform: uppercase;
+}
+
+.order-table {
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.empty-cart img {
+    height: 100px;
+}
+
+.grand-total {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.d-btn {
+    color: #FFFFFF;
+    border: none;
+    background-color: #ea272d;
+    outline: none;
+    width: 120px;
+    height: 50px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    padding: 0px;
+    text-transform: uppercase;
+}
+
+/*.d-btn2 {
+    width: 120px;
+    height: 55px;
+    border-radius: 10px;
+    background-color: rgb(234, 39, 45);
+    text-align: center;
+    font-family: calibri;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    border: none;
+    box-shadow: rgb(0 0 0 / 20%) 2px 2px 12px;
+    outline: none;
+}*/
+
+#location-input-details {
+  display: none;
 }
