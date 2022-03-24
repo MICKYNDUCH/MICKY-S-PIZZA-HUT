@@ -1,147 +1,282 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Amaranth|Great+Vibes|Lobster&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
-    <link rel="stylesheet" href="css/styles.css" type="text/css">
-    <script src="js/jquery-3.6.0 (1).js"></script>
-    <title>Micky's pizza hut</title>
-  </head>
-  <body>
-    <div class="container">
-      <div class="intro">
-        <h1>MICKY'S PIZZA HUT</h1>
-        <p class="welcome">WELCOME TOP THE HOME OF FRESH TASTY PIZZA</p>
-        <div class="menu" id="menu">
-          <ul>
-            <li>Menu</li>
-            <li>Today's Deals</li>
-            <li>Order Online</li>
-            <li <img src="PizzaPcs/trollery.jpg" alt="cart logo" id="img">Cart</li>
-          </ul>
-
-        </div>
-      <!-- </div> -->
-        <div class="container" id="container">
-          <div class="chicken" id="slots">
-            <h3>GRILLED</h3>
-            <h3>CHICKEN</h3>
-            <br><br><br>
-            <button type="button" name="button">Hot&Spicy</button>
-
-          </div>
-          <div class="veggies" id="slots">
-            <h3>VEGGIES</h3>
-            <h3>PIZZA</h3>
-            <br><br><br>
-            <button type="button" name="button">Order now</button>
-
-          </div>
-          <div class="meat" id="slots">
-            <h3>MEAT</h3>
-            <h3>PIZZA</h3>
-            <br><br><br>
-            <button type="button" name="button">Order Now</button>
-
-          </div>
-          <div class="pepperoni" id="slots">
-            <h3>PEPPERONI</h3>
-            <h3>PIZZA</h3>
-            <br><br><br>
-            <button type="button" name="button">Order Now</button>
-
-          </div>
-
-
-        </div>
-        <div class="order">
-          <p>PLACE YOUR PIZZA <span>ORDER</span> HERE</p>
-
-        </div>
-        <div class="container">
-            <form class="form" action="index.html" method="post">
-             <div class="flavor">
-               <label for="pizzafsize">PIZZA FLAVOURS</label><br>
-               <select class="form control" name="flavor">
-                 <option value="selected disabled">Select Pizza Flavor</option>
-                 <option value="grilled chicken">GRILLED CHICKEN PIZZA</option>
-                 <option value="corn pizza">CORN PIZZA</option>
-                 <option value="veggies pizza">VEGGIES PIZZA</option>
-                 <option value="meat pizza">MEAT PIZZA</option>
-                 <option value="pepperon pizza">PEPPERONI PIZZA</option>
-
-               </select>
-            </div><br>
-            <div class="size">
-              <label for="pizzafsize">PIZZA SIZES</label><br>
-              <select class="form control" name="size">
-                <option value="selected disabled">Select Pizza Size</option>
-                <option value="small">Small @800/= Ksh</option>
-                <option value="medium">MEDIUM @1200/= Ksh</option>
-                <option value="large">LARGE @1500/= Ksh</option>
-              </select>
-            </div><br>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>MICKY' PIZZA HUT</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <!--Bootstrap CSS-->
+        <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+        <!--Custom CSS-->
+        <link rel="stylesheet" href="css/styles.css" type="text/css">
+        <link rel="stylesheet" href="js/<scripts.js></script>">
+    </head>
+    <body>
+        <!--navigation section-->
+        <div class="navigation-container">
+            <div class="navigation-content">
+                <!--logo-->
+                <div class="BLAND">
+                    <h3>MICKY'S PIZZA HUT</h3>
+                </div>
+                <!--menu-->
+                <div class="menu">
+                    <ul>
+                        <li><a href="#">MENU</a></li>
+                        <li><a href="#">TUESDAY DEALS</a></li>
+                        <li><a href="#">ORDER ONLINE</a></li>
+                        <a href="#">Cart</a>
+                    </ul>
+                </div>
             </div>
-              <div class="crust">
-                <label for="pizzafsize">PIZZA CRUST</label><br>
-                <select class="form control" name="size">
-                  <option value="selected disabled">Select Pizza cruts</option>
-                  <option value="cheese">CHEESE CRUST @200/=</option>
-                  <option value="bread">BREAD CRUST @150/=</option>
-                  <option value="stuffed">STUFFED CRUST @150/=</option>
-                  <option value="crackers">CRACKERS CRUST@150/=</option>
-                </select>
-             </div><br>
-             <div class="toppings">
-               <p class="order">Select Your Preferred Toppings</p>
-               <p><em>Each toppings @150/=</em></p>
-               <input type="checkbox" name="toppings" value="">
-               <label for="meat">BLACK OLIVES,CAPERS,</label><br>
-               <input type="checkbox" name="toppings" value="">
-               <label for="cheese">POTTATO,SAUSAGE/BACON</label><br>
-               <input type="checkbox" name="" value="">
-               <label for="crackers">BROCCOLI,BELL,PEPPERS</label><br>
-               <input type="checkbox" name="" value="">
-               <label for="cheese">MEAT,SPINACH,ONIONS,</label><br>
-               <input type="checkbox" name="" value="">
-               <label for="bread">ANCHOVIES,ZUUCHINI,PINEAPPLE</label>
+        </div><br><br>
+        <!--end of navigation-->
+        <div class="content-container">
+            <!--content-->
+            <div class="content">
+                <!--row 1-->
+                <div class="first-row">
+                    <div class="new">
+                        <p>PEPPERONI</p>
+                        <p>PIZZA</p>
+                        <button>HOT & SPICY</button>
+                    </div>
+                    <div class="tools">
+                        <div class="search">
+                            <p>FIND LOCATIONS</p>
+                            <div class="text">
+                                <input type="search" placeholder="Search Something Here">
+                                <button>Search</button>
+                            </div>
+                        </div>
+                        <div class="order">
+                            <a href="#order-section"><span id="order">ORDER</span> ONLINE</a>
+                        </div>
+                    </div>
+                </div>
+                <!--row 2-->
+                <div class="second-row">
+                    <div class="food-1">
+                        <div class="name">
+                            <p>CHICKEN</p>
+                            <p>PIZZA</p>
+                        </div>
+                        <div class="details">
+                           <a href='#order-section'><button>ORDER NOW</button></a>
+                        </div>
+                    </div>
+                    <div class="food-2">
+                        <div class="name">
+                            <p>VEGGIE</p>
+                            <p>PIZZA</p>
+                        </div>
+                        <div class="details">
+                            <a href='#order-section'><button>ORDER NOW</button></a>
+                        </div>
+                    </div>
+                    <div class="food-3">
+                        <div class="name">
+                            <p>MEAT</p>
+                            <p>PIZZA</p>
+                        </div>
+                        <div class="details">
+                            <a href='#order-section'><button>ORDER NOW</button></a>
+                        </div>
+                    </div>
+                </div>
+                <!--order form section-->
+                <div class="order-section" id="order-section">
+                    <div class="container">
+                        <div class="row">
+                            <h2>Place your Pizza <span id="h2">Order</span> Here</h2>
+                            <div class="col-md-6">
+                                <form id="order-form">
+                                    <div class="form-group">
+                                        <label for>Select Pizza Flavor<span class="text-danger">*</span></label>
+                                        <select class="form-control" id="pizza" name="pizza">
+                                            <option value selected disabled>Select Pizza Flavor</option>
+                                            <option value="Grilled Chicken Winter">GRILLED CHICKEN</option>
+                                            <option value="Corn Starch Tikka">MEAT PIZZA</option>
+                                            <option value="Smoked Hawaiian Chicken">VEGGIE PIZZA</option>
+                                            <option value="Veggie Special">PEPPERONI PIZZA</option>
+                                            <option value=" Bacon Barbeque Steak">CORN PIZZA</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for>Size<span class="text-danger">*</span></label>
+                                        <select class="form-control" id="size" name="size">
+                                            <option value selected disabled>Select Pizza Size</option>
+                                            <option value="small">Small @800/=</option>
+                                            <option value="small">Medium @1000/=</option>
+                                            <option value="small">Large @1200/=</option>
+                                        </select>
+                                    </div>
 
-             </div><br>
-               <input type="submit" value="Submit">
-                <input type="reset">
+                                    <div class="form-group">
+                                        <label for>Crust<span class="text-danger">*</span></label>
+                                        <select class="form-control" id="crust" name="crust">
+                                            <option value selected disabled>Select Crust</option>
+                                            <option value="cheese">CHEESE @200/=</option>
+                                            <option value="stuffed">STUFFED @100/=</option>
+                                            <option value="bread">BREAD @150/=</option>
+                                              <option value="crackers">CRACKERS @100/=</option>
+                                        </select>
+                                    </div>
 
-            </form>
+                                    <div class="form-group">
+                                        <p id="toppings">Select your preferred toppings @100/= each</p>
+                                        <div class="row-toppings">
+                                            <div class="col-md-6">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" name="toppings[]" type="checkbox" id="SweetCorn" value="SweetCorn">
+                                                    <label class="form-check-label" for="SweetCorn"> BLACK OLIVES,CAPERS,</label>
+                                                </div>
+                                            </div>
 
+                                            <div class="col-md-6">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" name="toppings[]" type="checkbox" id="Mozzarella" value="Mozzarella">
+                                                    <label class="form-check-label" for="Mozzarella">POTTATO,SAUSAGE/BACON</label>
+                                                </div>
+                                            </div>
 
-          </div>
-       </div>
-     </div>
+                                            <div class="col-md-6">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" name="toppings[]" type="checkbox" id="Sausage" value="Sausage">
+                                                    <label class="form-check-label" for="Sausage">BROCCOLI,BELL,PEPPERS</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mt-4 text-start">
+                                        <button class="form-button">
+                                            Add to Cart
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
 
-    </div>
-    <div class="table">
-      <thead>
-        <tr>
-          <th>FLAVOR</th>
-          <th>SIZE</th>
-          <th>CRUST</th>
-          <th>TOPPINGS</th>
-          <th>QUANTITY</th><br><br>
-          <th>TOTAL    ;</th>
-        </tr>
-      </thead>
+                            <div class="col-md-6">
+                                <table class="table table-responsive order-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Flavor</th>
+                                            <th>Size</th>
+                                            <th>Crust</th>
+                                            <th>Topping</th>
+                                            <th>Quantity</th>
+                                            <th>Total</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="empty-cart text-center">
+                                                <br>
+                                                Cart is Empty
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
 
-    </div>
-    <div class="total">
-       <p class="grand-total">Total Cost: Ksh: <span class="text-bold">0</span>
-    <div class="deliverybutton">
-      <button type="submit" name="Checkout" value="index.html">Proceed to Checkout</button>
+                                <div class="text-end">
+                                    <p class="grand-total">Total Cost: Ksh <span class="text-bold">0</span>
+                                </div>
 
-    </div>
-   </div>
+                                <div class="delivery-button float-end">
+                                    <button class="d-btn" data-bs-toggle="modal" data-bs-target="#deliveryMethodModal">Click to Proceed</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
+                <!--Delivery Modal Section-->
+                <div class="modal fade" id="deliveryMethodModal" tabindex="-1" aria-labelledby="deliveryMethodModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="deliveryMethodModalLabel">DELIVERY METHOD</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
 
-     <script src="js/scripts.js"></script>
-  </body>
+                            <div class="modal-body">
+                                <!-- input modal -->
+                                <div id="select-delivery-method">
+                                    <p>How do you want your order delivered? <span class="text-center">*</span></p>
+                                    <p class="delivery-option text-danger"></p>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="deliveryMethod" id="deliveryMethod1" value="pickup">
+                                        <label class="form-check-label" for="deliveryMethod1">Pickup</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="deliveryMethod" id="deliveryMethod2"  value="delivery">
+                                        <label class="form-check-label" for="deliveryMethod2">Home or Office Address</label>
+                                        <p>Kindly note that add additional delivery amount of <span class="color-palace">Ksh 200</span> will be added to your total for delivery charges</p>
+                                    </div>
+
+                                    <div class="location mt-5">
+                                        <form id="delivery-form">
+                                            <div id="location-input-details">
+                                                <h5>Delivery Details</h5>
+                                                <p class="text-danger error-delivery-location"></p>
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <div class="mb-3">
+                                                            <label for="exampleInputEmail1" class="form-label">Name <span class="text-danger">*</span></label>
+                                                            <input type="text" class="form-control" name="name" id="customerName">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="mb-3">
+                                                            <label for="exampleInputEmail1" class="form-label">Phone Number <span class="text-danger">*</span></label>
+                                                            <input type="number" class="form-control" name="phone" id="customerPhone">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="mb-3">
+                                                            <label for="exampleInputEmail1" class="form-label">Location <span class="text-danger">*</span></label>
+                                                                <input type="text" class="form-control" name="location" id="customerLocation">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="mb-3">
+                                                            <label for="exampleInputEmail1" class="form-label">Additional Information</label>
+                                                            <textarea name="additionalInfo" class="form-control" id="additionalInfo" rows="2"></textarea>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="modal-footer">
+                                                <button type="button" class="d-btn" data-bs-dismiss="modal">Close</button>
+                                                <button type="submit" class="d-btn" id="checkout-button">Checkout</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+
+                                <!-- div to display the summary of all the orders -->
+                                <div id="summary-order">
+                                    <div class="delivery-head"></div>
+                                    <div class="delivery-bottom"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Boostrap JS-->
+        <!-- <script src="css/bootstrap"></script> -->
+        <!-- jQuery link -->
+        <!-- <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script> -->
+        <script src="js/jquery-3.6.0 (1).js"></script>
+        <!--Custom JS-->
+        <!-- <script src="js/index.js" async defer></script> -->
+    </body>
 </html>
